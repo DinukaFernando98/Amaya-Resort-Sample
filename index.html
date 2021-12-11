@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Amaya Resort</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <!-- Custom CSS -->
+        <link rel = "stylesheet" href = "main.css">
+        <!-- Slick CSS files -->
+        <link rel = "stylesheet" href = "slick-1.8.1/slick/slick.css">
+        <link rel = "stylesheet" href = "slick-1.8.1/slick/slick-theme.css">
+    </head>
+    <body>
+        <!-- header -->
+        <header class = "header" id = "home">
+            <div class = "header-wrapper">
+                <!-- navbar -->
+                <div class = "navbar-wrapper">
+                    <nav class = "navbar container">
+                        <div class = "brand-and-toggler container">
+                            <img src = "images/logo.png" class = "navbar-brand">
+                            <button type = "button" class = "navbar-toggler" id = "navbar-toggler">
+                                <span><i class = "fas fa-bars"></i> MENU</span>
+                            </button>
+                        </div>
+
+                        <div class = "navbar-collapse">
+                            <ul class = "navbar-nav container">
+                                <li class = "nav-item">
+                                    <a href = "#home" class = "nav-link">Home</a>
+                                </li>
+                                <li class = "nav-item">
+                                    <a href = "#about" class = "nav-link">About</a>
+                                </li>
+                                <li class = "nav-item">
+                                    <a href = "#featured" class = "nav-link">Featured</a>
+                                </li>
+                                <li class = "nav-item">
+                                    <a href = "#rooms" class = "nav-link">Rooms</a>
+                                </li>
+                                <li class = "nav-item">
+                                    <a href = "#contact" class = "nav-link">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class = "banner">
+                    <div class = "container">
+                        <h1 class = "banner-title">
+                            <span>Explore</span> the beauty of Ella, Sri Lanka
+                        </h1>
+                        <p class = "banner-text">Stay with us while you travel, and feel the mountain breeze of Ella</p>
+                        <li class = "nav-item special-nav-btn2">
+                            <a href = "#book" class="nav-link">Add Booking</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <section class = "facts section-py" id="book">
+            <div class = "container">
+                <div class = "book">
+                    <h3 class = "banner-title">
+                        <span>Book Now</span>
+                    </h3><br>
+        
+                    <form class = "book-form">
+                        <div class = "form-item">
+                            <label for = "checkin-date">Check In Date: </label>
+                            <input type = "date" id = "chekin-date">
+                        </div>
+                        <div class = "form-item">
+                            <label for = "checkout-date">Check Out Date: </label>
+                            <input type = "date" id = "chekout-date">
+                        </div>
+                        <div class = "form-item">
+                            <label for = "adult">Adults: </label>
+                            <input type = "number" min = "1" value = "1" id = "adult">
+                        </div>
+                        <div class = "form-item">
+                            <label for = "children">Children: </label>
+                            <input type = "number" min = "1" value = "1" id = "children">
+                        </div>
+                        <div class = "form-item">
+                            <label for = "rooms">Rooms: </label>
+                            <input type = "number" min = "1" value = "1" id = "rooms">
+                        </div>
+                        <li class = "nav-item special-nav-btn3">
+                            <a href = "#rooms" class="nav-link">Check Availability</a>
+                        </li>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+     
+
+        <!-- about section -->
+        <section class = "about section-py" id = "about">
+            <div class = "container">
+                <h2 class = "section-title">
+                    <span>About </span> Us
+                </h2>
+                <div class = "about-wrapper">
+                    <div class = "single-about">
+                        <span><i class = "fas fa-award"></i></span>
+                        <h2 class = "normal-title">Best Price Guarantee</h2>
+                        <p class = "normal-para">
+                            Best and cheapest prices in the are! Special offers Availabe!
+                        </p>
+                    </div>
+
+                    <div class = "single-about">
+                        <span><i class = "fas fa-heart"></i></span>
+                        <h2 class = "normal-title">Travellers Recomendation</h2>
+                        <p class = "normal-para">
+                            Recomendations from travellers all around the world!
+                        </p>
+                    </div>
+
+                    <div class = "single-about">
+                        <span><i class = "fas fa-passport"></i></span>
+                        <h2 class = "normal-title">Free Wifi and Other Benefits</h2>
+                        <p class = "normal-para">
+                            Hastle-free network connection while you stay!
+                        </p>
+                    </div>
+
+                    <div class = "single-about">
+                        <span><i class = "fas fa-cog"></i></span>
+                        <h2 class = "normal-title">Our Dedicated Support</h2>
+                        <p class = "normal-para">
+                            Experience luxurious customer services with an amazing and friendly staff!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of about section -->
+
+        <!-- featured section -->
+        <section class = "featured section-py" id = "featured">
+            <div class = "container">
+                <h2 class = "section-title">
+                    <span>Featured </span> Destination
+                </h2>
+
+                <div class = "gallery">
+                    <div class = "single-place">
+                        <div class = "single-place-img">
+                            <img src = "images/place-1.jpg" alt = "places">
+                            <span class = "display-icon">
+                                <i class = "fas fa-search"></i>
+                            </span>
+                        </div>
+                        <div class = "single-place-info">
+                            <p>Nine Arches Bridge</p>
+                            <p>6.5Km</p>
+                        </div>
+                    </div>
+
+                    <div class = "single-place">
+                        <div class = "single-place-img">
+                            <img src = "images/place-3.jpg" alt = "places">
+                            <span class = "display-icon">
+                                <i class = "fas fa-search"></i>
+                            </span>
+                        </div>
+                        <div class = "single-place-info">
+                            <p>Ella Rock</p>
+                            <p>8.1Km</p>
+                        </div>
+                    </div>
+
+                    <div class = "single-place">
+                        <div class = "single-place-img">
+                            <img src = "images/place-4.jpg" alt = "places">
+                            <span class = "display-icon">
+                                <i class = "fas fa-search"></i>
+                            </span>
+                        </div>
+                        <div class = "single-place-info">
+                            <p>Kithal Ella Falls</p>
+                            <p>2.8Km</p>
+                        </div>
+                    </div>
+
+                    <div class = "single-place">
+                        <div class = "single-place-img">
+                            <img src = "images/place-2.jpg" alt = "places">
+                            <span class = "display-icon">
+                                <i class = "fas fa-search"></i>
+                            </span>
+                        </div>
+                        <div class = "single-place-info">
+                            <p>Ravana Falls</p>
+                            <p>3.3Km</p>
+                        </div>
+                    </div>
+
+                    <div class = "single-place">
+                        <div class = "single-place-img">
+                            <img src = "images/place-5.jpg" alt = "places">
+                            <span class = "display-icon">
+                                <i class = "fas fa-search"></i>
+                            </span>
+                        </div>
+                        <div class = "single-place-info">
+                            <p>Little Adam's Peak</p>
+                            <p>5.9Km</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- rooms section -->
+        <section class = "room section-py" id = "rooms">
+            <div class = "container">
+                <span class = "section-name">
+                    Special Offers
+                </span>
+                <h2 class = "section-title">
+                    <span>Top</span> Room Packages
+                </h2>
+
+                <div class = "tour-wrapper">
+                    <!-- single tour card -->
+                    <div class = "card">
+                        <img src = "images/r1.jpg" alt = "tour places">
+                        <div class = "card-body">
+                            <div class = "tour-place">
+                                <h2 class = "normal-text">Prestige Room</h2>
+                                <h2 class = "tour-price">4500LKR</h2>
+                            </div>
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "far fa-star"></i></span> 
+                                8
+                            </div>
+                            <h6 class = "rating-text">Rating</h6>
+                            <p class = "normal-para">Breakfast | Free-Wifi | AC</p>
+                            <p class = "normal-para">1 day</p>
+                            <hr>
+                        </div>
+                        <div class = "card-footer">
+                            <span class = "normal-para">
+                                <i class = "fas fa-map"></i>
+                            </span>
+                            <button class = "btn-green">
+                                Book
+                            </button>
+                        </div>
+                    </div>
+                    <!-- end of single tour card -->
+
+                    <!-- single tour card -->
+                    <div class = "card">
+                        <img src = "images/r2.jpg" alt = "tour places">
+                        <div class = "card-body">
+                            <div class = "tour-place">
+                                <h2 class = "normal-text">Executive Suite</h2>
+                                <h2 class = "tour-price">15000LKR</h2>
+                            </div>
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "far fa-star"></i></span> 
+                                8
+                            </div>
+                            <h6 class = "rating-text">Rating</h6>
+                            <p class = "normal-para">Breakfast | Lunch | Free-Wifi</p>
+                            <p class = "normal-para">2 days 1 night</p>
+                            <hr>
+                        </div>
+                        <div class = "card-footer">
+                            <span class = "normal-para">
+                                <i class = "fas fa-map"></i>
+                            </span>
+                            <button class = "btn-green">
+                                Book
+                            </button>
+                        </div>
+                    </div>
+                    <!-- end of single tour card -->
+
+                    <!-- single tour card -->
+                    <div class = "card">
+                        <img src = "images/r3.jpg" alt = "tour places">
+                        <div class = "card-body">
+                            <div class = "tour-place">
+                                <h2 class = "normal-text">Superior Room</h2>
+                                <h2 class = "tour-price">6000LKR</h2>
+                            </div>
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "far fa-star"></i></span> 
+                                8
+                            </div>
+                            <h6 class = "rating-text">Rating</h6>
+                            <p class = "normal-para">Breakfast | Free-Wifi | AC</p>
+                            <p class = "normal-para">1 day</p>
+                            <hr>
+                        </div>
+                        <div class = "card-footer">
+                            <span class = "normal-para">
+                                <i class = "fas fa-map"></i>
+                            </span>
+                            <button class = "btn-green">
+                                Book
+                            </button>
+                        </div>
+                    </div>
+                    <!-- end of single tour card -->
+                    <!-- single tour card -->
+                    <div class = "card">
+                        <img src = "images/r4.jpg" alt = "tour places">
+                        <div class = "card-body">
+                            <div class = "tour-place">
+                                <h2 class = "normal-text">Non-AC Room</h2>
+                                <h2 class = "tour-price">2500LKR</h2>
+                            </div>
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "far fa-star"></i></span> 
+                                8
+                            </div>
+                            <h6 class = "rating-text">Rating</h6>
+                            <p class = "normal-para">Free-Wifi</p>
+                            <p class = "normal-para">1 day</p>
+                            <hr>
+                        </div>
+                        <div class = "card-footer">
+                            <span class = "normal-para">
+                                <i class = "fas fa-map"></i>
+                            </span>
+                            <button class = "btn-green">
+                                Book
+                            </button>
+                        </div>
+                    </div>
+                    <!-- end of single tour card -->
+                </div>
+            </div>
+        </section>
+        <!-- end of tour section -->
+
+        <!-- numscroller -->
+        <section class = "facts section-py">
+            <div class = "container">
+                <h2>Some Fun Facts</h2>
+                <p class = "normal-para">More than 3000 travellers around the world!</p>
+                <div class = "fact-wrapper">
+                    <div class = "single-data">
+                        <span class='numscroller' data-min='1' data-max='4500' data-delay='20' data-increment='25'>0</span>
+                        <span class = "numscroller-text">Happy Customers</span>
+                    </div>
+                    <div class = "single-data">
+                        <span class='numscroller' data-min='1' data-max='381' data-delay='2' data-increment='2'>0</span>
+                        <span class = "numscroller-text">Ratings</span>
+                    </div>
+                    <div class = "single-data">
+                        <span class='numscroller' data-min='1' data-max='23' data-delay='1' data-increment='1'>0</span>
+                        <span class = "numscroller-text">Travel Destination</span>
+                    </div>
+                    <div class = "single-data">
+                        <span class='numscroller' data-min='1' data-max='15' data-delay='1' data-increment='1'>0</span>
+                        <span class = "numscroller-text">Leisure Activities</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of numscroller -->
+
+        <!-- testimonial section -->
+        <section class = "testimonial section-py">
+            <div class = "container">
+                <div class = "testimonial-wrapper">
+                    <!-- testimonial left -->
+                    <div class = "testimonial-left">
+                        <span class = "section-name">Best Resort in the Area!</span>
+                        <h2 class = "section-title">
+                            <span>Why</span> Choose Us?
+                        </h2>
+                        <p class = "normal-para">
+                            A luxurious Hotel with 5-Star Service, based in Ella Town, Sri Lanka
+                        </p>
+                    <!-- testimonial right -->
+                    <div class = "testimonial-right">
+                        <span class = "section-name">Testimony</span>
+                        <h2 class = "section-title">
+                            <span>Our</span> Guests Says
+                        </h2>
+                        <div class = "test-slider">
+                            <!-- single testimonial -->
+                            <div class = "test-single">
+                                <div class = "test-img">
+                                    <img src = "images/person-2.jpg" alt = "guest person">
+                                    <span class = "quote-icon">
+                                        <i class = "fas fa-quote-left"></i>
+                                    </span>
+                                </div>
+                                <div class = "text-content">
+                                    <p class = "normal-para">
+                                        Amazing customer service, clean and luxurious rooms. Truly enjoyed my stay at Amaya Resort.
+                                    </p>
+                                    <div class = "about-guest">
+                                        <p>Dennis Green</p>
+                                        <p>Guest from America</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end of single testimonial -->
+                            <!-- single testimonial -->
+                            <div class = "test-single">
+                                <div class = "test-img">
+                                    <img src = "images/person-3.jpg" alt = "guest person">
+                                    <span class = "quote-icon">
+                                        <i class = "fas fa-quote-left"></i>
+                                    </span>
+                                </div>
+                                <div class = "text-content">
+                                    <p class = "normal-para">
+                                        Loved the food and the staff was very friendly and supportive. I recommend Amaya Resort!
+                                    </p>
+                                    <div class = "about-guest">
+                                        <p>David William </p>
+                                        <p>Guest from Canada</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end of single testimonial -->
+                                                      <!-- single testimonial -->
+                                                      <div class = "test-single">
+                                                        <div class = "test-img">
+                                                            <img src = "images/person-2.jpg" alt = "guest person">
+                                                            <span class = "quote-icon">
+                                                                <i class = "fas fa-quote-left"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div class = "text-content">
+                                                            <p class = "normal-para">
+                                                                Amazing customer service, clean and luxurious rooms. Truly enjoyed my stay at Amaya Resort.
+                                                            </p>
+                                                            <div class = "about-guest">
+                                                                <p>Dennis Green</p>
+                                                                <p>Guest from America</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end of single testimonial -->
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <!-- end of testimonial section -->
+
+        <!-- <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height = "100" width = "100" alt="">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height = "100" width = "100" alt="">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height = "100" width = "100" alt="">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height = "100" width = "100" alt="">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height = "100" width = "100" alt="">
+                </div>
+            </div>
+        </div>  -->
+        
+        <!-- footer -->
+        <footer class = "footer section-py" id = "contact">
+            <div class = "container">
+                <div class = "footer-wrapper">
+                    <div class = "footer-div footer-div-1">
+                        <h2 class = "normal-title">Amaya Resort & Spa Ella</h2>
+                        <p class = "normal-para">A luxurious Hotel based in Ella Town, Sri Lanka</p>
+                        <div class = "social-icons">
+                            <a href = "#">
+                                <span><i class = "fab fa-twitter"></i></span>
+                            </a>
+                            <a href = "#">
+                                <span><i class = "fab fa-facebook"></i></span>
+                            </a>
+                            <a href = "#">
+                                <span><i class = "fab fa-instagram"></i></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class = "footer-div footer-div-2">
+                        <h2 class = "normal-title">Information</h2>
+                        <ul class = "footer-links">
+                            <li><a href = "#">About</a></li>
+                            <li><a href = "#">Services</a></li>
+                            <li><a href = "#">Terms and Conditions</a></li>
+                            <li><a href = "#">Best Price Guarantee</a></li>
+                            <li><a href = "#">Privacy and Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class = "footer-div footer-div-3">
+                        <h2 class = "normal-title">Customer Support</h2>
+                        <ul class = "footer-links">
+                            <li><a href = "#">FAQ</a></li>
+                            <li><a href = "#">Payment Option</a></li>
+                            <li><a href = "#">Booking Rooms</a></li>
+                            <li><a href = "#">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class = "footer-div footer-div-4">
+                        <h2 class = "normal-title">Have a Question?</h2>
+                        <ul class = "footer-links">
+                            <li class = "contact-single">
+                                <span>
+                                    <i class = "fas fa-map-marker-alt"></i>
+                                </span>
+                                <span>203 Ella Town, Ella</span>
+                            </li>
+                            <li class = "contact-single">
+                                <span>
+                                    <i class = "fas fa-phone"></i>
+                                </span>
+                                <span>+ 9411 2783 283</span>
+                            </li>
+                            <li class = "contact-single">
+                                <span>
+                                    <i class = "fas fa-envelope"></i>
+                                </span>
+                                <span>bookings@amayaresort.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class = "copyright-text">
+                    <p>Copyright &copy; 2020 All rights reserved | Created by Dinuka Fernando for educational purposes</p>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <!-- numscroller -->
+        <script src = "numscroller-gh-pages/numscroller-1.0.js"></script>
+        <!-- Slick JS file -->
+        <script src = "slick-1.8.1/slick/slick.min.js"></script>
+        <!-- Custom JS -->
+        <script src = "script.js"></script>
+    </body>
+</html>
